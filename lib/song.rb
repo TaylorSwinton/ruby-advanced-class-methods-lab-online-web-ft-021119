@@ -37,14 +37,6 @@ class Song
 
       find_by_name(song) || create_by_name(song)
 
-=begin
-    findit = findSongTwo
-    if findit == find_by_name(findSongTwo)
-      find_by_name(findSongTwo)
-    else  findit != findSongTwo
-      create_by_name(findSongTwo)
-    end
-=end
   end
 
   def self.alphabetical
